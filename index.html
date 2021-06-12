@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Google</title>
+  </head>
+  <body>
+    <main>
+      <section class="google">
+        <img src="google-logo.png" alt="" />
+      </section>
+      <section class="searchContainer">
+        <div class="searchBox">
+          <div class="searchIcon">
+            <img src="searchicon.webp" alt="" />
+          </div>
+          <input
+            type="text"
+            name="q"
+            title="search"
+            class="search"
+            value=""
+            maxlength="2000"
+            enableAutoComplete="true"
+          />
+          <div class="closeIcon">
+            <img src="close.png" alt="" />
+          </div>
+        </div>
+        <div class="buttonsBox">
+          <button class="btn googlebtn" type="button">Google Search</button>
+          <button class="btn luckybtn" type="button">I'm feeling lucky</button>
+        </div>
+      </section>
+      <p class="showquote"></p>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
